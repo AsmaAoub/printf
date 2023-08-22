@@ -38,5 +38,5 @@ int print_octal_number(va_list types, char b[],
 
 	i++;
 
-	return (write_unsgnd(0, i, b, f, w, p, s));
+	return (write_unsigned(0, i, b, f, w, p, s));
 }
