@@ -64,7 +64,7 @@ int _printf(const char *format, ...)
 
 	return (printed_chars); /* Return the total count of printed characters.*/
 =======
-    // Initialize variables.
+    /* Initialize variables.*/
 >>>>>>> 7bbd096320c9e23a9377a91f223682cc83338e75
 	int i;
     int printed = 0;
@@ -114,7 +114,7 @@ int _printf(const char *format, ...)
 <<<<<<< HEAD
 	return (printed_chars); /* Return the total count of printed character.*/
 =======
-	return (printed_chars); // Return the total count of printed characters.
+	return (printed_chars); /* Return the total count of printed characters.*/
 >>>>>>> a79d2b61f1abc54e9c0b3bde693768e9481c8c31
 >>>>>>> 7bbd096320c9e23a9377a91f223682cc83338e75
 }
@@ -139,9 +139,10 @@ void print_buffer(char b[], int *buffer_index)
 
 	*buffer_index = 0; /* Reset the buffer index to 0.*/
 =======
-		write(1, &b[0], *buffer_index); // Write the buffer contents to standard output.
+		write(1, &b[0], *buffer_index); /* Write the buffer contents to standard output.*/
 
-	*buffer_index = 0; // Reset the buffer index to 0.
+
+	*buffer_index = 0; /* Reset the buffer index to 0.*/
 >>>>>>> a79d2b61f1abc54e9c0b3bde693768e9481c8c31
 >>>>>>> 7bbd096320c9e23a9377a91f223682cc83338e75
 }
