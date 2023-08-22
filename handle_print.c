@@ -59,4 +59,7 @@ int handle_print(const char *formatSpecifier, int *currentIndex, va_list argumen
 
     return printedCharacters;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a79d2b61f1abc54e9c0b3bde693768e9481c8c31
