@@ -25,7 +25,7 @@ int extract_precision(const char *formatString, int *currentIndex, va_list argsL
 
     p = 0;
 
-    // Loop through the format string to find the precision value
+    /* Loop through the format string to find the precision value */
     for (index += 1; formatString[index] != '\0'; index++)
     {
         // Check if the character is a digit
